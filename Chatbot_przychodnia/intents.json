@@ -1,0 +1,78 @@
+{"intents": [
+        {"tag": "adres1",
+         "patterns": ["Adres"],
+         "responses": ["Kaszubska 17 B", "Wojciecha Lochowskiego 7a", "Ksiedza Hugona Kollataja 9"],
+         "context": [""]
+        },
+        {"tag": "adres2",
+         "patterns": ["Dojazd"],
+         "responses": ["Polecam google maps poda ci droge do przychodni w okolicy."],
+         "context": [""]
+        },
+        {"tag": "powitanie1",
+         "patterns": ["Czesc", "Dzien dobry", "Siemka", "Hej", "jol", "Hello"],
+         "responses": [ "Czesc, w czym moge pomoc?", "Czesc! Jak moge ci pomoc?"],
+         "context": [""]
+        },
+        {"tag": "powitanie2",
+         "patterns": ["Dzien dobry"],
+         "responses": ["Dzien dobry. Jak moge pomoc?"],
+         "context": [""]
+        },
+        {"tag": "powitanie3",
+         "patterns": ["Dobry wieczor"],
+         "responses": ["Dobry wieczor. Jak moge pomoc?"],
+         "context": [""]
+        },
+        {"tag": "pozegnanie1",
+         "patterns": [ "Pa", "Bye"],
+         "responses": ["Milego dnia", "Pa Pa! Zapraszam ponownie!"],
+         "context": [""]
+        },
+        {"tag": "pozegnanie2",
+         "patterns": ["Do widzenia"],
+         "responses": ["Do widzenia.","Do widzenia i milego dnia."],
+         "context": [""]
+        },
+        {"tag": "podziekowanie",
+         "patterns": ["Thanks", "Thx", "Dzieki", "Dziekuje"],
+         "responses": ["Ciesze sie, ze moglem pomoc. :)", "Nie ma za co."],
+         "context": [""]
+        },
+        {"tag": "brakodp",
+         "patterns": [""],
+         "responses": ["Przepraszam, nie rozumiem.", "Nie jestem pewien czy dobrze rozumiem, powtorz."],
+         "context": [""]
+        },
+        {"tag": "pomoc",
+         "patterns": ["Jak mozesz mi pomoc?", "Co mozesz robic?", "Pomoc", "Help"],
+         "responses": ["Podaje informacje o covid szczepionka, objawy, adresie/dojazdzie przychodni, test"],
+         "context": [""]
+        },
+        {"tag": "objawy",
+         "patterns": ["objawy","Jakie sa objawy"],
+         "responses": ["Zazwyczaj są to: wysoka goraczka, kaszel, dusznosci oraz utrata wechu lub smaku. Rzadko moga pojawic sie bole miesni i glowy, biegunka, wysypka."],
+         "context": [""]
+        },
+          {"tag": "szczepionka",
+         "patterns": ["szczepionka", "Gdzie moge sie zaszczepic", "Jak sie zapisac na szczepienie"],
+         "responses": ["Polecam zalogowanie sie na konto zaufane na pacjent.gov.pl i zapisac sie na szczepienie."],
+         "context": [""]
+        },
+        {"tag": "dusznosc",
+         "patterns": ["dusznosc", "dusznosci", "Ciezko mi sie oddych", "problemy z oddychaniem"],
+         "responses": ["Niezwłocznie zadzwoń nanumer 112 lub 999, by uzyskać pomoc medyczną pamiętaj upszedić, że możesz mieć koronawirusa."],
+         "context": [""]
+        },
+        {"tag": "goraczka",
+         "patterns": ["goraczka", "Mam temperature."],
+         "responses": ["W przypadku goraczki nie warto ryzykowac prosze sie skontaktowac z lekarzem zostanie Pan/i skierowana na test lub wejdz na gov.pl/dom"],
+         "context": [""]
+        },
+        {"tag": "utrata_wech_smak",
+         "patterns": ["stracilem wech", "stracilem wech i smak", "wech", "smak"],
+         "responses": ["To moze byc tylko przeziebienie. Nie warto jednak ryzykowac skontaktuj sie z lekarzem lub/i wykonaj test."],
+         "context": [""]
+        }
+   ]
+}
