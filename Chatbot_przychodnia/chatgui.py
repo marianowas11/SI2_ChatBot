@@ -91,7 +91,7 @@ base.resizable(width=FALSE, height=FALSE)
 
 #Create Chat window
 ChatLog = Text(base, bd=0, bg="white", height="8", width="50", font="Arial",)
-ChatLog.insert(END, "Pisz pomoc, by dowiedziec sie co moge robic."+'\n\n')
+ChatLog.insert(END, "Hi! Send 'help' to know what i can do."+'\n\n')
 ChatLog.config(state=DISABLED)
 
 #Bind scrollbar to Chat window
